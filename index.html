@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body class="bg-Body">
+    <div class="w-90 m-auto p-3 ">
+        <h1 class="text-center font-40 heading1">Bookmarker</h1>
+        <h3 class="py-4 text-center heading2 ">Bookmark your favorite sites</h3>
+        <label for="sitename"class="pb-2" >Site Name</label>
+        <input oninput="validationBookMark() ;" type="text "class="form-control is-valid" id="sitename">
+        <div id="alertForName" class="alert alert-danger d-none">The length of site name is between 5 and 10 character</div>
+        <label for="siteurl" class="p-2">Site URL</label>
+        <input  type="text" class="form-control " id="siteurl">
+        <button onclick="addBookMark();" class=" b-color  px-5 py-2 mt-4 m-auto rounded-2 d-flex ">Save</button>
+        <table class=" text-center mt-5 test table-hover ">
+            <thead >
+                <tr >
+                    <th>Index</th>
+                    <th>Website Name</th>
+                    <th>Visit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody id="tablebody">
+               
+               
+            </tbody>
+        </table>
+   
+   
+    </div>
+
+    <script src="Js/main.js"></script>
+</body>
+</html>

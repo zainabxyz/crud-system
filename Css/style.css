@@ -1,0 +1,50 @@
+.bg-Body{
+    /* background-color: rgb(173, 135, 202); */
+    background-image:url(../white-cloud-blue-sky.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.w-90{
+    width: 90%;   
+}
+.font-40{
+    font-size: 60px;
+}
+.heading1{
+    font-family: 'Lobster', sans-serif;
+    color: rgb(63, 88, 230);
+    
+}
+.heading2{
+    font-family: 'Permanent Marker', cursive;
+
+}
+.b-color{
+    color:rgb(0, 0, 0);
+    font-weight: 900px;
+    background-color:  transparent;
+    transition: 1s;
+    border: rgb(255, 255, 255) 3px solid;
+    
+}
+.b-color:hover{
+    background-color: rgb(63, 88, 230);
+    transform: scale(1.2);
+}
+.test{
+    background-color: transparent;
+    width: 100%;
+    border: 2px white solid;
+
+}
+tr{
+    border-bottom: 2px solid #ffffff;
+    padding-block: 15px;
+    font-size: 20px;
+}
+tr:hover{
+    background-color: #eee;
+    
+}
